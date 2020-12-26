@@ -1,0 +1,22 @@
+{
+    "name": "try-test",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "start": "set NODE_ENV=production && node server",
+        "dev": "nodemon server"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "nodemon": "^2.0.6"
+    },
+    "dependencies": {
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "express-fileupload": "^1.2.0",
+        "mongoose": "^5.11.8",
+        "morgan": "^1.10.0"
+    }
+}
